@@ -21,7 +21,7 @@ internal communication, and remote access.
 
 <p align="center">
   <a href="screenshots/topology.png">
-    <img src="screenshots/topology.png" alt="TechNova Network Topology" width="750">
+    <img src="topology.png" alt="TechNova Network Topology" width="750">
   </a>
 </p>
 
