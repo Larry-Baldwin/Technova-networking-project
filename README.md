@@ -1,12 +1,28 @@
 <h1 align="center">TechNova Networking Project</h1>
 
-<h2>Scenario-Based Project: Small Office Network Setup</h2>
+<p align="center">
+Small Office Network Infrastructure Design | VLAN Segmentation | IPv4/IPv6 | Routing | Security
+</p>
+
+<hr>
+
+<h2>📖 Scenario Overview</h2>
 
 <p>
 <strong>TechNova Solutions</strong> is a startup with 20 employees.
 The company requires a secure, scalable, and efficient network infrastructure
 to support daily operations such as internet access, file sharing,
 internal communication, and remote access.
+</p>
+
+<hr>
+
+<h2>🖥 Network Topology Diagram</h2>
+
+<p align="center">
+  <a href="screenshots/topology.png">
+    <img src="screenshots/topology.png" alt="TechNova Network Topology" width="750">
+  </a>
 </p>
 
 <hr>
@@ -31,12 +47,12 @@ internal communication, and remote access.
 
 <hr>
 
-<h2>📌 Project Tasks</h2>
+<h2>📌 Project Implementation Phases</h2>
 
 <h3>Phase 1: Network Planning & Design</h3>
 <ul>
 <li>Create a network topology diagram for the office.</li>
-<li>Choose appropriate routers, switches, PCs, printers, and servers.</li>
+<li>Select routers, switches, PCs, printers, and servers.</li>
 <li>Design VLAN layout based on departments.</li>
 </ul>
 
@@ -65,42 +81,57 @@ internal communication, and remote access.
 
 <h3>Phase 6: DHCP Configuration</h3>
 <ul>
-<li>Set up DHCP services to assign IPs to end-user devices dynamically.</li>
+<li>Set up DHCP services to assign IPs dynamically.</li>
 </ul>
 
 <h3>Phase 7: DNS, HTTP, FTP Services</h3>
 <ul>
 <li>Deploy a server to host DNS, HTTP, and FTP.</li>
-<li>Configure domain resolution for internal web access.</li>
-<li>Set up FTP for file uploads and downloads.</li>
+<li>Configure internal domain resolution.</li>
+<li>Enable FTP file transfers.</li>
 </ul>
 
-<h3>Phase 8: Device Testing & Troubleshooting</h3>
+<h3>Phase 8: Testing & Troubleshooting</h3>
 <ul>
-<li>Use ping, traceroute, and telnet/SSH to verify connectivity.</li>
+<li>Use ping, traceroute, and SSH to verify connectivity.</li>
 <li>Validate VLAN segmentation and routing.</li>
 <li>Verify access to web and FTP services.</li>
 </ul>
 
 <h3>Phase 9: OSI Model Mapping</h3>
 <ul>
-<li>Document which part of the project corresponds to each layer of the OSI model.</li>
+<li>Document how configurations align with OSI layers.</li>
 </ul>
 
 <hr>
 
 <h2>🛠 Technologies Used</h2>
+
 <ul>
 <li>Cisco Packet Tracer</li>
-<li>IPv4 & IPv6</li>
+<li>IPv4 & IPv6 Addressing</li>
 <li>VLAN Segmentation</li>
+<li>Inter-VLAN Routing</li>
 <li>Static Routing</li>
-<li>SSH</li>
+<li>SSH Secure Management</li>
 <li>DHCP</li>
 <li>DNS</li>
-<li>HTTP & FTP</li>
+<li>HTTP & FTP Services</li>
 <li>OSI Model Mapping</li>
 </ul>
+
+<hr>
+
+<h2>📂 Repository Structure</h2>
+
+<pre>
+Technova-networking-project/
+│
+├── README.md
+├── topology.pkt
+└── screenshots/
+    └── topology.png
+</pre>
 
 <hr>
 
